@@ -1,0 +1,64 @@
+body{
+  background-color:rgba(224, 221, 205, 0.86);
+  background-repeat: no-repeat;
+}
+.intro{
+  border: solid;
+  border-color: black;
+  border-radius: 15px;
+  margin-top: 10%;
+  padding: 5%;
+  background-color: rgb(232, 230, 233)
+}
+
+.tech{
+  border: solid;
+  border-color: black;
+  border-radius: 15px;
+  margin-top: 10%;
+  padding: 5%;
+  background-color: rgb(232, 230, 233);
+}
+.my-history{
+  border: solid;
+  border-color: black;
+  border-radius: 15px;
+  margin-top: 10%;
+  padding: 5%;
+  background-color: rgb(232, 230, 233);
+}
+
+.why-CS{
+  border: solid;
+  border-color: black;
+  border-radius: 15px;
+  margin-top: 10%;
+  padding: 5%;
+  background-color: rgb(232, 230, 233);
+}
+
+.future{
+  border: solid;
+  border-color: black;
+  border-radius: 15px;
+  margin-top: 10%;
+  padding: 5%;
+  background-color: rgb(232, 230, 233);
+}
+
+.classes{
+  border: solid;
+  border-color: black;
+  border-radius: 15px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 5%;
+  background-color: rgb(232, 230, 233);
+}
+
+img{
+  border: double;
+  border-radius: 15px;
+  margin: auto;
+  margin-bottom: 3%;
+}
