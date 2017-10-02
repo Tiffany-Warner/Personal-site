@@ -1,0 +1,74 @@
+
+/*Navigtion Bar Font*/
+.nav-link{
+	font-family: Kameron;
+}
+
+body{
+	background: url("flagstaff1.jpg");
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.header-text{
+  padding:10%;
+  font-family: Kameron;
+  color: white;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0, 1),
+       1px 0px 5px rgba(0, 0, 0, 1),
+			 0px 1px 5px rgba(0, 0, 0, 1),
+       0px 4px 20px rgba(0, 0, 0, 0.82),
+       0px 8px 30px rgba(0,0,0,0.1),
+       0px 18px 37px rgba(0,0,0,0.1);
+}
+h1{
+	margin-top: -10%;
+	font-size: 50px;
+}
+#myPhoto{
+  margin-top:70%;
+	margin-left: 30%;
+  padding: 10px;
+  font-family: Cardo;
+  font-size: 180%;
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+}
+#lewisQuote{
+  margin-top:20%;
+  margin-left:30%;
+  padding:10px;
+	padding-top: 5%;
+  font-family: Cardo;
+  font-size: 180%;
+  color: black;
+  background-color: white;
+  border-radius: 15px;
+	text-align: center;
+}
+.personal-descr{
+  font-family: Tinos;
+  font-weight: 400;
+  margin-bottom: 10%;
+	margin-top: -10%
+}
+
+/*Project Section*/
+.project-section{
+  text-align: center;
+}
+
+/*The code for this horizontal rule style found here
+REF: https://codepen.io/ibrahimjabbari/pen/ozinB*/
+hr.proj{
+  height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+  }
+.card{
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
