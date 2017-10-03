@@ -13,7 +13,9 @@ body{
 	background-attachment: fixed;
 }
 .header-text{
-  padding:10%;
+	border-radius: 25px;
+	padding:2%;
+	background-color: rgba(0, 1, 2, 0.3);
   font-family: Kameron;
   color: white;
   text-shadow: 0px 0px 8px rgba(0, 0, 0, 1),
@@ -24,7 +26,6 @@ body{
        0px 18px 37px rgba(0,0,0,0.1);
 }
 h1{
-	margin-top: -35%;
 	font-size: 50px;
 }
 #myPhoto{
@@ -57,12 +58,6 @@ h1{
 /*Project Section*/
 .project-section{
   text-align: center;
-	margin-top: -10%;
-	background: url(tech2.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-
 }
 .first-section-header{
 	background-color: white;
