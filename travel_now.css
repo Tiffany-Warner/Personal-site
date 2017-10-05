@@ -1,3 +1,12 @@
 .main-section{
   padding: 20vh;
 }
+.btn-primary{
+		color: #fff;
+  	background-color: #6f5499;
+  	border-color: #6f5499;
+		border-radius: 24px;
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-bottom: 2vh;
+}
