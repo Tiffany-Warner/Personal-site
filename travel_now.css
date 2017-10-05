@@ -1,7 +1,10 @@
-.main-section{
+.main-section {
   padding: 20vh;
 }
-.btn-primary{
+.project-section {
+  margin: 0 auto;
+}
+.btn-primary {
 		color: #fff;
   	background-color: #6f5499;
   	border-color: #6f5499;
