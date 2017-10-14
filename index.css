@@ -1,66 +1,60 @@
-
-/*Navigtion Bar Font*/
-@media (min-width: 480px)
-
+@media (min-width: 480px){}
 .nav-link{
-	font-family: Kameron;
+	font-family: Kameron, serif;
 }
-body{
-	background: url("flagstaff1.jpg");
+body {
+	background: url("flagstaff1.jpg") no-repeat fixed center;
 	height: 100vh;
 	width: 100vw;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-
 }
-.header-text{
-	border-radius: 25px;
-	padding:2%;
-	background-color: rgba(0, 1, 2, 0.3);
-  font-family: Kameron;
-  color: white;
-  text-shadow: 0px 0px 8px rgba(0, 0, 0, 1),
-       1px 0px 5px rgba(0, 0, 0, 1),
-			 0px 1px 5px rgba(0, 0, 0, 1),
-       0px 4px 20px rgba(0, 0, 0, 0.82),
-       0px 8px 30px rgba(0,0,0,0.1),
-       0px 18px 37px rgba(0,0,0,0.1);
+.header-text {
+    border-radius: 25px;
+    padding: 2%;
+    background-color: rgba(0, 1, 2, 0.3);
+    font-family: Kameron, serif;
+    color: white;
+    text-shadow:
+        0 0 8px rgba(0, 0, 0, 1),
+        1px 0 5px rgba(0, 0, 0, 1),
+        0 1px 5px rgba(0, 0, 0, 1),
+        0 4px 20px rgba(0, 0, 0, 0.82),
+        0 8px 30px rgba(0,0,0,0.1),
+        0 18px 37px rgba(0,0,0,0.1);
 }
-h1{
+h1 {
 	font-size: 50px;
 }
-#myPhoto{
-  margin-top: 30vh;
-	margin-left: 10vh;
-  padding: 10px;
-  background-color: white;
-  border-radius: 15px;
+#myPhoto {
+    margin-top: 30vh;
+    margin-left: 10vh;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
 }
-#lewisQuote{
-	display: flex;
-  margin-top: 30vh;
-	margin-bottom: 30vh;
-  margin-left: auto;
-  font-family: Cardo;
-  font-size: 180%;
-  color: black;
-  background-color: white;
-	border-style: double;
-	border-color: rgba(25, 82, 7, 0.98);
-  border-radius: 15px;
-	text-align: center;
+#lewisQuote {
+    display: flex;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    margin-left: auto;
+    font-family: Cardo, serif;
+    font-size: 180%;
+    color: black;
+    background-color: white;
+    border: 4px double rgba(25, 82, 7, 0.98);
+
+    border-radius: 15px;
+    text-align: center;
 }
-.personal-descr{
-  font-family: Tinos;
-  font-weight: 400;
-  margin-bottom: 10%;
-	margin-top: -10%
+.personal-descr {
+    font-family: Tinos, serif;
+    font-weight: 400;
+    margin-bottom: 10%;
+    margin-top: -10%
 }
 
 /*Project Section*/
-.project-section{
-  text-align: center;
+.project-section {
+      text-align: center;
 }
 .first-section-header{
 	background-color: white;
@@ -70,20 +64,29 @@ h1{
 /*The code for this horizontal rule style found here
 REF: https://codepen.io/ibrahimjabbari/pen/ozinB*/
 hr.proj{
-  height: 10px;
-	border: 0;
-	box-shadow: 0 10px 10px -10px #8c8b8b inset;
-  }
-.card-img-top{
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+.card {
+    background: #BDC3C7;
+}
+.card-img-top {
 	width: 100%;
 }
-
-.btn-primary{
-		color: #fff;
-  	background-color: #6f5499;
-  	border-color: #6f5499;
-		border-radius: 24px;
-		margin-left: 30%;
-		margin-right: 30%;
-		margin-bottom: 2vh;
+button:hover, .myButtons:hover {
+    color: white;
 }
+.myButtons {
+    color: #00ff00;
+    font-family: 'Incosolata', monospace;
+    background-color: #000006;
+    border-color: #6f5499;
+    border-radius: 24px;
+    margin: 5% 30%;
+    padding: 5px;
+}
+.myButtons:link {
+    text-decoration: none;
+}
+
